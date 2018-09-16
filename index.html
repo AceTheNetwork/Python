@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>N.Netbrain</title>
+
+  <script type="text/javascript" src="/static/js/vis.js"></script>
+  <link href="/static/js/vis-network.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+</head>
+
+<body background="{{url_for('static', filename='grid.png')}}">
+  <p>
+    Create a simple network with some nodes and edges.
+  </p>
+
+  <div id="mynetwork"></div>
+  <script type="text/javascript">
+
+    //Calls the functions that loads de JSON file, and receives response as a callback
+    loadJSON(function (response) {
+
+
+      // The response var that brings the callback is the data in the .json file, but it's a string
+      // So you need to apply JSON.parse to make a JSON Object variable in javascript
+      var jsonRawObject = JSON.parse(response);
+      
+      // The JsonRawObject has the next structure {TABLE_interface:{ROW_interface:[Array with objects]} }
+      // So you need we get the nested property that contains the array.
+      var data = jsonRawObject.TABLE_interface.ROW_interface;
+      
+      // https://www.w3schools.com/jsref/jsref_map.asp
+      // The function 'map' is an array function that allows to transform the selected array in to another array
+      // Applying a function to each item of the array. 
+      // In this case we are converting the data array into an array with objects that has two properties: id and label
+      nodesData = data.map(function (interface, index) {
+        return {
+          id: index,
+          label: interface.interface
+        }
+
+      });
+
+      // https://www.w3schools.com/jsref/jsref_slice_array.asp
+      // returns the selected elements in an array, as a new array object.
+      // In this example we are getting the first two objects.
+      var nodes = new vis.DataSet(nodesData.slice(0, 2));
+      // create an array with edges
+      var edges = new vis.DataSet([
+        { from: 0, to: 1 , label:'Hello'},
+        { from: 1, to: 0 }
+      ]);
+
+      // create a network
+      var container = document.getElementById('mynetwork');
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+      var options = {};
+      var network = new vis.Network(container, data, options);
+
+
+    });
+
+    // Load Json file from local folder
+    // Just need to change the 2nd parameter in the .open function, that's the relative url corresponding to index.html location
+    function loadJSON(callback) {
+
+      var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+      xobj.open('GET', 'templates/data.json', true); // Replace 'my_data' with the path to your file
+      xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+          // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+          callback(xobj.responseText);
+        }
+      };
+      xobj.send(null);
+    }
+  </script>
+</body>
+
+</html>
