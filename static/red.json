@@ -1,0 +1,294 @@
+{
+    "TABLE_vrf": [
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "RED"
+            }
+        }
+    ], 
+    "TABLE_intf": [
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan700", 
+                "prefix": "10.62.38.130", 
+                "ip-disabled": "FALSE", 
+                "iod": "104", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan701", 
+                "prefix": "10.62.36.130", 
+                "ip-disabled": "FALSE", 
+                "iod": "103", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan702", 
+                "prefix": "10.62.36.19", 
+                "ip-disabled": "FALSE", 
+                "iod": "102", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan703", 
+                "prefix": "10.62.35.130", 
+                "ip-disabled": "FALSE", 
+                "iod": "101", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan704", 
+                "prefix": "10.62.39.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "100", 
+                "proto-state": "down", 
+                "link-state": "down", 
+                "admin-state": "down"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan800", 
+                "prefix": "10.62.42.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "98", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan801", 
+                "prefix": "10.62.43.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "97", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan920", 
+                "prefix": "10.62.92.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "96", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan922", 
+                "prefix": "10.62.55.34", 
+                "ip-disabled": "FALSE", 
+                "iod": "95", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan1700", 
+                "prefix": "172.18.72.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "51", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan2100", 
+                "prefix": "10.122.192.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "48", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan2101", 
+                "prefix": "10.122.200.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "47", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan2505", 
+                "prefix": "10.130.125.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "38", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan3700", 
+                "prefix": "10.130.100.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "5", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan3701", 
+                "prefix": "10.130.104.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "4", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan3702", 
+                "prefix": "10.130.106.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "3", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan3703", 
+                "prefix": "10.130.108.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "2", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Po30.2505", 
+                "prefix": "10.130.125.9", 
+                "ip-disabled": "FALSE", 
+                "iod": "140", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }
+    ]
+}

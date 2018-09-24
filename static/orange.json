@@ -1,0 +1,118 @@
+﻿{
+    "TABLE_vrf": [
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "ORANGE"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "ORANGE"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "ORANGE"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "ORANGE"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "ORANGE"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "ORANGE"
+            }
+        }, 
+        {
+            "ROW_vrf": {
+                "vrf-name-out": "ORANGE"
+            }
+        }
+    ], 
+    "TABLE_intf": [
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan600", 
+                "prefix": "10.62.12.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "112", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan610", 
+                "prefix": "10.62.13.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "111", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan2502", 
+                "prefix": "10.130.125.182", 
+                "ip-disabled": "FALSE", 
+                "iod": "41", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan3400", 
+                "prefix": "10.130.56.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "22", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan3401", 
+                "prefix": "10.130.60.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "21", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Vlan3402", 
+                "prefix": "10.130.62.2", 
+                "ip-disabled": "FALSE", 
+                "iod": "20", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }, 
+        {
+            "ROW_intf": {
+                "intf-name": "Po30.2502", 
+                "prefix": "10.130.125.189", 
+                "ip-disabled": "FALSE", 
+                "iod": "137", 
+                "proto-state": "up", 
+                "link-state": "up", 
+                "admin-state": "up"
+            }
+        }
+    ]
+}
